@@ -20,6 +20,7 @@ This script will install a Windows package manager called `Chocolatey` that is u
 * Sourcetree
 * Python
 * Python.PyPy
+* Pipenv
 * Ruby
 
 Within Visual Studio Code, the following extensions are installed:
