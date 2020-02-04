@@ -20,7 +20,9 @@ choco install androidstudio android-sdk -y
 choco install yarn -y
 
 # Install dev tools
-choco install vscode visualstudiocommunity2013 sourcetree -y
+choco install vscode visualstudiocommunity2013 sourcetree vagrant -y
+# Install docker
+choco install docker-desktop docker-compose docker-cli -y
 
 # Install NET 
 choco install dotnetcore dotnetcore-sdk -y 
