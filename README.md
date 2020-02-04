@@ -10,6 +10,10 @@ This script will install a Windows package manager called `Chocolatey` that is u
 * Git
 * Visual Studio Code
 * Visual Studio Community Edition 2013
+* Vagrant
+* Docker for Desktop
+* Docker-CLI
+* Docker-Compose
 * Android Studio
 * Android SDK
 * OpenJDK
