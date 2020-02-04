@@ -20,6 +20,7 @@ This script will install a Windows package manager called `Chocolatey` that is u
 * Sourcetree
 * Python
 * Python.PyPy
+* Ruby
 
 Within Visual Studio Code, the following extensions are installed:
 
@@ -35,6 +36,7 @@ Within Visual Studio Code, the following extensions are installed:
 * vscjava.vscode-java-pack 
 * msjsdiag.vscode-react-native 
 * jingkaizhao.vscode-redux-devtools
+* vscode-gitignore
 
 Within NodeJS, the following packages are installed:
 

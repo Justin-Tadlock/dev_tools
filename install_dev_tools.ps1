@@ -20,7 +20,7 @@ choco install androidstudio android-sdk -y
 choco install yarn -y
 
 # Install dev tools
-choco install code visualstudiocommunity2013 sourcetree -y
+choco install vscode visualstudiocommunity2013 sourcetree -y
 
 # Install NET 
 choco install dotnetcore dotnetcore-sdk -y 
@@ -28,13 +28,16 @@ choco install dotnetcore dotnetcore-sdk -y
 # Install python tools
 choco install python vscode-python python.pypy -y
 
+# Install Ruby tools
+choco install ruby -y
+
 # Install react native
 choco install nodejs-lts -y
 npm install -g react-native-cli create-react-app -y
 
 # Install vscode extensions
-choco install code -y
-code --install-extension pkief.material-icon-theme esbenp.prettier-vscode ms-vscode.powershell
+choco install vscode -y
+code --install-extension pkief.material-icon-theme esbenp.prettier-vscode ms-vscode.powershell vscode-gitignore
 # Install python extensions
 code --install-extention ms-python.python
 # Install Flutter extensions
