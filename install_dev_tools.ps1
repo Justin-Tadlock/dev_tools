@@ -52,3 +52,10 @@ code --install-extension dart-code.flutter gmlewis-vscode.flutter-stylizer
 code --install-extension redhat.java vscjava.vscode-java-test vscjava.vscode-java-pack
 # Install react/react-native extensions
 code --install-extension msjsdiag.vscode-react-native jingkaizhao.vscode-redux-devtools
+
+function installFlutter() {
+    # Install Flutter
+    choco install git -y
+    refreshenv
+    git clone https://github.com/flutter/flutter.git
+}
