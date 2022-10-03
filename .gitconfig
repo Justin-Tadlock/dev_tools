@@ -1,0 +1,14 @@
+[user]
+	name = Justin Tadlock
+[url "https://"]
+	insteadOf = git://
+[alias]
+co = checkout
+cob = checkout -b
+cod = checkout development
+com = checkout main
+updev = fetch origin development:development
+upmain = fetch origin main:main
+upmaster = fetch origin master:master
+acm = !git add . && git commit -m
+ri = rebase -i
